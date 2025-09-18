@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: my-iam-mcp-server
+Version: 0.1.0
+Summary: Custom MCP server for AWS IAM
+Author-email: Your Name <your@email.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: fastmcp
+
+# my-iam-mcp-server
+This is used for testing purpose
+# My IAM MCP Server
+
+A simple MCP server to list AWS IAM users.  
+
+## Install
+
+```bash
+uvx my-iam-mcp-server@latest

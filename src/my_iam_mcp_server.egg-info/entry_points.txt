@@ -1,0 +1,2 @@
+[console_scripts]
+my-iam-mcp-server = my_iam_mcp_server:main

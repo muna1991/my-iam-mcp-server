@@ -1,0 +1,18 @@
+[project]
+name = "my-iam-mcp-server"
+version = "0.1.0"
+description = "Custom MCP server for AWS IAM"
+requires-python = ">=3.10"
+dependencies = [
+    "boto3",
+    "mcp[cli]",  # full MCP toolkit, same as AWS example
+    "loguru"
+]
+
+[project.scripts]
+my-iam-mcp-server = "my_iam_mcp_server.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
